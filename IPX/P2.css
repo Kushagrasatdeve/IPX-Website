@@ -1,0 +1,200 @@
+body {
+    color: white;
+    background-color: black;
+    padding: 20px 70px 20px 60px;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    /* justify-content: center;
+    align-items: center; */
+    /* font-family: 'Sacramento', cursive */
+}
+
+hr.hrt{
+    /* border: 0;
+height: 1px;
+background: #333;
+background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -o-linear-gradient(left, #ccc, #333, #ccc); */
+border: 0;
+height: 0;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+width: 100%;
+}
+
+.one {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin: 0 40px 0 0;
+    border-radius: 10px;
+
+}
+
+.top-container {
+    /* border: solid 1px white; */
+    /* width: 100%;
+    height: 50%;
+    padding: 0 0 0 10px;
+    position: relative; */
+    /* border: solid 1px white; */
+    perspective: 500px;
+    margin: auto;
+    padding: 0 10px 0 10px;
+    width: 100%;
+    height: 70%;
+}
+.top-container.top-2{
+    position: relative;
+    width: 275px;
+    height: 275px;
+    background: #000;
+    transition: 0.5s;
+    margin: 10px 20px 10px 20px;
+    padding: 20px 0 20px 20px;
+}
+.top-2 {
+     /* border: solid 1px white; */
+    /* width: 100%; */
+    /* height: 50%; */
+    padding: 0 100px 0 100px;
+    /* position: absolute;  */
+    /* float: right; */
+    border: solid 1px white;
+    position:relative;
+    width: 50%;
+    height: 70%;
+    margin-left: 320px;
+    /* float: right; */
+}
+
+.middle-container {
+    border: solid 1px white;
+    width: 100%;
+    height: 50%;
+    padding: 0 20px 0 10px;
+
+}
+
+.bottom-container {
+    border: solid 1px white;
+    width: 100%;
+    height: 50%;
+    padding: 0 20px 0 10px;
+
+}
+
+.last-container {
+    border: solid 1px white;
+    width: 100%;
+    height: 50%;
+    padding: 0 20px 0 10px;
+}
+
+.fifth-container {
+    border: solid 1px white;
+    width: 100%;
+    height: 50%;
+    padding: 0 10px 0 10px;
+}
+
+.two {
+    border: solid 1px white;
+    width: 20%;
+    height: 70%;
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+.Seven {
+    border: solid 1px white;
+    perspective: 500px;
+    margin: auto;
+    padding: 0 10px 0 10px;
+    width: 100%;
+    height: 70%;
+}
+
+.Seven .card {
+    position: relative;
+    width: 275px;
+    height: 275px;
+    background: #000;
+    transition: 0.5s;
+    margin: 10px 40px 10px 40px;
+    padding: 20px 0 20px 20px;
+}
+
+.card {
+    border: solid 1px white;
+    float: left;
+    width: 20%;
+    height: 70%;
+    margin: 0 30px 0 30px;
+
+}
+
+.card1 {
+    border: solid 1px white;
+    position: absolute;
+    width: 20%;
+    height: 70%;
+    margin: 0 30px 0 30px;
+}
+
+.card2 {
+    border: solid 1px white;
+    float: right;
+    width: 20%;
+    height: 70%;
+    margin: 0 30px 0 30px;
+}
+
+i{
+    padding: 10px 10px 10px 10px;
+}
+.a{
+    width: 100%;
+    text-align: center;
+}
+.line{
+    /* float: right; */
+    margin-left: 320px;
+    background-color: black;
+}
+.t1{
+    margin-left: 300px;
+}
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
